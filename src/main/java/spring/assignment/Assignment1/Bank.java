@@ -7,6 +7,7 @@ public class Bank {
 
 	String bankName;
 	String bankAddress;
+	String bankId;
 	
 	public Bank() {
 		
@@ -18,6 +19,18 @@ public class Bank {
 		super();
 		this.bankName = bankName;
 		this.bankAddress = bankAddress;
+	}
+
+
+
+	public String getBankId() {
+		return bankId;
+	}
+
+
+
+	public void setBankId(String bankId) {
+		this.bankId = bankId;
 	}
 
 
